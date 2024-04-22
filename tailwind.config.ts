@@ -5,6 +5,8 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./animation/**/*.{js,ts,jsx,tsx,mdx}",
+    "./public/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     container: {
@@ -18,9 +20,8 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-background":
+          "url('https://cdn.dribbble.com/userupload/4270087/file/original-dd685e687e629f85a09d662b41578434.png?resize=1024x1024')",
       },
     },
     fontSize: {
@@ -38,6 +39,10 @@ const config: Config = {
       bebas: ["Bebas Neue", "sans-serif"],
     },
     colors: {
+      textColor: {
+        white: "#ffff",
+        black: "#000",
+      },
       primary: {
         "50": "#f6fee7",
         "100": "#eafccb",
