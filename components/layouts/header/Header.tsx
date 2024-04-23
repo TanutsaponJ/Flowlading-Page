@@ -30,7 +30,7 @@ export const Header = () => {
           </Link>
           <nav
             className={cx(
-              "flex gap-8 list-none bg-secondary-950 absolute sm:translate-y-0 sm:relative sm:h-fit sm:w-fit h-screen right-0 w-screen top-0 text-secondary-50  flex-col items-center justify-center sm:flex-row duration-300",
+              "flex gap-8 list-none bg-secondary-950 sm:bg-secondary-950 absolute sm:translate-y-0 sm:relative sm:h-fit sm:w-fit h-screen right-0 w-screen top-0 text-secondary-50  flex-col items-center justify-center sm:flex-row duration-300",
               showMenu === true ? "translate-y-0" : "-translate-y-full"
             )}
           >
